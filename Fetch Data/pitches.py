@@ -47,4 +47,4 @@ df = pitches[
 ]
 df.columns = ['endSpeed','spinRate','pitchType']
 
-df.to_csv('datasets/pitchSpeed_spinRate.csv')
+df.to_csv('datasets/pitchSpeed_spinRate.csv',index=False)
